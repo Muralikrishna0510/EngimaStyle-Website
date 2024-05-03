@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MyCss -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1>Enigma Style</h1>
+
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Side Navbar -->
+
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="side-navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+      </div>
+    </div>
+
+<!--Product  -->
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?polo+shirt" alt="">
+                <p>polo Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?black shirt" alt="">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?button-down+shirt" alt="">
+                <p>Button-down Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?denim+shirt" alt="">
+                <p>Denim Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?flannel+shirt" alt="">
+                <p>Flannel Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?hawaiian+shirt" alt="">
+                <p>Hawaiian Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?tops" alt="">
+                <p>Tops</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?jeans" alt="">
+                <p>Jeans</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?jackets" alt="">
+                <p>Jackets</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?sweater" alt="">
+                <p>Sweater</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?plaid+shirt" alt="">
+                <p>Plaid Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://source.unsplash.com/random/200x200/?linen+shirt" alt="">
+                <p>Linen Shirt</p>
+            </div>
+    
+    
+
+        </div>
+
+    </div>
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Enigma Style</h2>
+            <p>Discover our latest collections and trends on our website!</p>
+            <div class="footer-icon-container">
+              <a href="https://www.instagram.com/" class="fa-brands fa-instagram" style="color: #ffffff;" target="_blank"></a>
+              <a href="https://www.twitter.com/" class="fa-brands fa-twitter" style="color: #ffffff;" target="_blank"></a>
+              <a href="https://www.facebook.com/" class="fa-brands fa-facebook" style="color: #ffffff;" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <p>@2024 enigmastyle.com</p>
+</div>
+    <!-- My js -->
+    <script src="collection.js"></script>
+  </body>
+</html>
